@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed';
+}
+
+.gateway{
+    padding: 20px;
+}
+
+.gateway-intro {
+    margin: 0;
+    top: 50%;
+   
+}   
+.gateway-intro-head{
+    font-size: 40px;
+    font-weight: 800;
+}
+.gateway-intro-main{
+    font-weight: 600;
+    color: blue;
+}
+.gateway-intro-passage{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gateway-rules{
+   min-height: 95vh;
+    border-radius: 30px;
+    background-color: #ffd12a;
+}
+
+.gateway-rule{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.gateway-rules-serials{
+    font-weight: 600;
+    margin-inline: 20px;
+    color: #fff;
+    padding:  4px 10px ;
+    background-color: black;
+    border-radius: 50%;
+}
+.gateway-rules-points{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
